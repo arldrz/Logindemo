@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/login_bg_image4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/guide_four"/>
+
+        <ImageView
+            android:id="@+id/login_bg_image3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/guide_three"/>
+
+        <ImageView
+            android:id="@+id/login_bg_image2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/guide_two"/>
+
+        <ImageView
+            android:id="@+id/login_bg_image1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/guide_one"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:layout_width="120dp"
+            android:onClick="loginMain"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/login_bg"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="32dp"
+            android:text="登录"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:onClick="register"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/bt_bg"
+            android:text="注册"/>
+    </RelativeLayout>
+
+</RelativeLayout>
