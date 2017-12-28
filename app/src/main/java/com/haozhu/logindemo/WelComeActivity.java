@@ -16,9 +16,10 @@ import android.widget.ImageView;
 
 /**
  * Created by Administrator on 2017/12/4
+ * 欢迎页面
  */
 
-public class WelComeActivity extends AppCompatActivity {
+public class WelcomeActivity extends AppCompatActivity {
     private PrefManager prefManager;
     private ImageView mBgView4;
     private ImageView mBgView3;
@@ -40,7 +41,7 @@ public class WelComeActivity extends AppCompatActivity {
         }
         setContentView(R.layout.activity_welcome_activity);
         assignViews();
-        initview();
+        initView();
         //让状态栏透明
         changeStatusBarColor();
     }
@@ -59,7 +60,7 @@ public class WelComeActivity extends AppCompatActivity {
         mBgView2 = (ImageView) findViewById(R.id.login_bg_image2);
         mBgView1  = (ImageView) findViewById(R.id.login_bg_image1);
     }
-    private void initview() {
+    private void initView() {
         ObjectAnimator animator1 = ObjectAnimator.ofFloat(mBgView1, "alpha", 1.0f, 0f);
         ObjectAnimator animator2 = ObjectAnimator.ofFloat(mBgView2, "alpha", 0f, 1.0f);
         ObjectAnimator animatorScale1 = ObjectAnimator.ofFloat(mBgView1, "scaleX", 1.0f, 1.3f);
@@ -166,7 +167,7 @@ public void register(View v){
 }
 
     private void launchHomeScreen() {
-        prefManager.setFirstTimeLaunch(false);
+        prefManager.setFirstTimeLaunch(true);
         startActivity(new Intent(this,MainActivity.class));
         finish();
     }
