@@ -11,6 +11,7 @@
     <style name="AppTheme" parent="AppTheme.Base"/>
 
     <style name="FullScreen" parent="android:Theme.Translucent.NoTitleBar.Fullscreen">
-       <!-- <item name="android:windowBackground">@drawable/guide</item>-->
+
     </style>
+
 </resources>
