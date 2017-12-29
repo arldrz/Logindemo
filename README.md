@@ -5,4 +5,4 @@ demo包括app冷启动和app第一次安装的引导页实现
 
 效果图
 
-![GIF2](D:\work\Logindemo\photo\GIF2.gif)
+![GIF2](https://github.com/arldrz/Logindemo/blob/master/photo/GIF2.gif)
