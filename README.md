@@ -5,4 +5,4 @@ demo包括app冷启动和app第一次安装的引导页实现
 
 效果图
 
-![GIF1](C:\Users\Administrator\Desktop\GIF1.gif)
+![GIF1](D:\work\Logindemo\photo\GIF1.gif)
