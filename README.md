@@ -1,0 +1,2 @@
+# Logindemo
+demo包括app冷启动和app第一次安装的引导页实现
